@@ -6,7 +6,7 @@
     $email_from = "allthatshinesats@gmail.com";
     $email_subject = "New form Submission";
 
-    $to = "rasharasheedr99@gmail.com";
+    $to = "nafseer.ceekey@gmail.com";
     $headers = "From: $email_from";
 
     mail($to,$email_subject,$message,$headers);
