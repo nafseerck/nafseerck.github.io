@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafseer CK | Web3 Pioneer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -11,12 +11,13 @@
     <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
             integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href=""><img src="logo.png" height="60"></a>
+        <a class="navbar-brand" href=""><img src="logo.png" height="60" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,7 +30,7 @@
                     <a href="about.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="skills.html" class="nav-link">Proficient</a>
+                    <a href="skills.html" class="nav-link">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a href="gallery.html" class="nav-link">Gallery</a>
@@ -42,121 +43,90 @@
     </div>
 </nav>
 
-<!--image slider-->
 <div id="slides" data-ride="carousel" class="carousel slide">
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
         <li data-target="#slides" data-slide-to="2"></li>
     </ul>
-    <div>
+    <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="resized.jpg" height="100%" width="100%">
+            <img src="resized.jpg" class="d-block w-100" alt="Slide 1">
             <div class="carousel-caption">
-
-                <p style="margin-top: 50px; font-size:5vw;font-family: Cambria ">Hey, I am</p>
-                <marquee behavior="alternate" scrollamount="3" > <h1  style="font-size:8vw; font-family: Cambria ">NAFSEER CK</h1></marquee>
-                <!--<h3>"Analogue at birth, digital by design"</h3>-->
-                <!--<a class="btn btn-outline-light btn-lg" type="button" href="contactme.html">Contact me</a>-->
+                <h1 class="display-3">Nafseer CK</h1>
+                <p class="lead">Web3 Architect & Funded Trader</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="background2.jpg"height="100%" width="100%">
+            <img src="background2.jpg" class="d-block w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-            <img src="bg6.jpg"height="100%" width="100%">
+            <img src="bg6.jpg" class="d-block w-100" alt="Slide 3">
         </div>
     </div>
 </div>
 
-<!--welcome section-->
-
-<div class="container-fluid ">
+<div class="container-fluid">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1  style="font-size:5vw; font-family: Cambria; font-weight: bold ">A Software Engineer.</h1>
+            <h1 class="display-4">Building the Decentralized Future.</h1>
         </div>
-        <hr >
+        <hr>
         <div class="col-12">
-            <P >Experienced Web Developer with a demonstrated history of working in the computer software industry. Skilled in HTML5,Wordpress,Cascading Style Sheets (CSS),PHP,React Js,Flutter, Microsoft Office, Adobe Photoshop,Indesign,Illustrator and Lightroom.
-Cyber security enthusiast, Bug Bounty.</P>
-               <p> Wanna check out more about me? <a href="about.html">click here</a> </P>
+            <p>
+                With over **7 years of experience** as a **Full Stack Developer**, I'm an architect of both the traditional and decentralized web. My expertise spans across **Python**, **React**, **Next.js**, **Angular**, **Flutter**, **PHP**, **HTML**, **CSS**, **JS**, and **NestJS**. I'm dedicated to leveraging this knowledge to build secure and scalable applications on the blockchain.
+            </p>
+            <p>
+                My journey into the decentralized world began **8 years ago with Crypto**. This deep-rooted passion for the space extends to my work as a **3-time funded trader** in both **Forex** and **Crypto**, giving me a unique perspective on the financial and technological aspects of Web3.
+            </p>
+            <p>
+                Wanna check out more about me? <a href="about.html">Click here</a>
+            </p>
         </div>
     </div>
 </div>
 
-<!--3 column section-->
 <div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-code"></i>
-            <h6>HTML5</h6>
-            <p style="font-size: small">Built with the latest version of HTML,HTML5.</p>
+            <i class="fas fa-cube"></i>
+            <h6>Blockchain & Smart Contracts</h6>
+            <p>Developing secure and efficient smart contracts on various blockchain networks.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-bold"></i>
-            <h6>BOOTSTRAP</h6>
-            <p style="font-size: small">Built with the latest version of Bootstrap,Bootstrap 4.</p>
+            <i class="devicon-solidity-plain colored"></i>
+            <h6>Web3 Development</h6>
+            <p>Building decentralized applications (dApps) and integrating with blockchain services.</p>
         </div>
         <div class="col-sm-12 col-md-4">
-            <i class="fab fa-css3"></i>
-            <h6>CSS3</h6>
-            <p style="font-size: small">Built with the latest version of CSS,CSS3.</p>
+            <i class="fas fa-shield-alt"></i>
+            <h6>Cybersecurity & Bug Bounties</h6>
+            <p>Skilled in identifying vulnerabilities and securing digital assets and applications.</p>
         </div>
     </div>
     <hr class="my-4">
 </div>
 
-
-<!--fixed background-->
-<!--<figure>
-    <div class="fixed-wrap">
-        <div id="fixed">
+<footer class="bg-dark text-white">
+    <div class="container-fluid ">
+        <div class="row text-center ">
+            <div class="col-12">
+                <h1 class="display-5 mt-4">Connect</h1>
+            </div>
+            <div class="col-12 social padding">
+                <a href="https://www.facebook.com/nafseerck" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/naphze" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nafseer-ck-15872b2a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/nafseerck" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="row text-center py-3">
+            <div class="col-12">
+                <p>&copy; Nafseer CK. All rights reserved.</p>
+            </div>
         </div>
     </div>
-</figure>-->
-
-<!--emoji section-->
-<!--
-<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
-<div class="collapse" id="emoji">
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-sm-6 col-md-3">
-                <img src="panda1.gif" class="gif">
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <img src="emoji.gif" class="gif">
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <img src="choc.gif" class="gif" >
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <img src="unicorn.gif" class="gif" >
-            </div>
-
-        </div>
-    </div>
-
-</div>
--->
-
-<!--connect-->
-<footer>
-<div class="container-fluid ">
-    <div class="row text-center ">
-        <div class="col-12">
-            <h1 style="font-size: 3vw">Connect</h1>
-        </div>
-        <div class="col-12 social padding">
-            <a href="https://www.facebook.com/nafseerck"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/naphze"><i class="fab fa-instagram"></i></a>
-            <a href="https://plus.google.com/nafseer.ceekey"><i class="fab fa-google-plus-g"></i></a>
-            <a href="https://www.linkedin.com/in/nafseer-ck-15872b2a/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/nafseerck"><i class="fab fa-github"></i></a>
-        </div>
-    </div>
-</div>
 </footer>
 </body>
 </html>
